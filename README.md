@@ -1,7 +1,7 @@
 sms24x7-SmsSender
 =================
 
-Perl module to send sms through sms24x7 service
+Perl module to send sms through sms24x7 service. API manual can be found at https://outbox.sms24x7.ru/api_manual/index.html
 
 # Sms24x7
 
