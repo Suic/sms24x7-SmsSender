@@ -3,10 +3,6 @@ sms24x7-SmsSender
 
 Perl module to send sms through sms24x7 service. API manual can be found at https://outbox.sms24x7.ru/api_manual/index.html
 
-# Sms24x7
-
-Sending SMS via sms24x7 API. For more details see http://sms24x7.ru/api/
-
 ## Usage
 
 use or require this module to your project
@@ -24,9 +20,7 @@ my $sender = SmsSender->new( {cfg => '/path/to/yaml/config/cfg.yml'} );
 my $sender = SmsSender->new( {option => value, ...} );
 ```
 List of options:
-email - yours account email
-password - password
-url - url to api
+email - yours account email. password - password. url - url to api
 
 Now you can send sms:
 ```
