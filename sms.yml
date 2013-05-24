@@ -1,0 +1,7 @@
+---
+opts:
+  days: 5
+  login: email@example.com
+  password: hardpass
+  test: 1
+  url: http://api.sms24x7.ru:80/
