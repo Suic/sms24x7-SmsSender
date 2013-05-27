@@ -51,3 +51,17 @@ if ($sender->get_errors) {
   #... get_errors method returns array of errors
 }
 ```
+
+##Dependencies
+
+LWP
+
+XML::Simple
+
+Text::Iconv
+
+YAML::Tiny
+
+JSON::XS
+
+Lingua::DetectCharset
